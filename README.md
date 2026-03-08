@@ -34,9 +34,24 @@ It also includes input validation, API error handling, and a loop so the user ca
 - Allow the user to search again in a loop
 - Accept both `yes` / `no` and `y` / `n` as valid responses
 
+## How the Program Works
+
+1. The user enters a South African city
+2. The app formats the city name and adds the South Africa country code
+3. A request is sent to the OpenWeatherMap API
+4. The app reads and extracts weather data from the response
+5. The weather information is displayed in a formatted output
+6. The user is asked whether they want to check another city
+7. The program repeats until the user chooses to exit
+
+
 ## Technologies Used
 
 - Python 3
 - `requests` library
 - OpenWeatherMap API
+
+## How to Run
+
+Run the program from the terminal:
 
